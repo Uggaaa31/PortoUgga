@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muh. Anugrah Ihsan — Network Infrastructure Specialist · DevOps · IoT Engineer</title>
+  <meta name="description"
+    content="Portfolio of Muh. Anugrah Ihsan — Network Infrastructure Specialist, DevOps & IoT Engineer, and Full-Stack Developer based in Makassar, Indonesia." />
+  <meta name="keywords"
+    content="Network Infrastructure, Cisco, Network Engineer, DevOps, IoT Engineer, Full-Stack Developer, Makassar, Indonesia, Anugrah Ihsan" />
+  <meta property="og:title" content="Muh. Anugrah Ihsan — Network & IT Portfolio" />
+  <meta property="og:description"
+    content="Network Infrastructure Specialist · DevOps & IoT Engineer · Full-Stack Developer" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Muh<span>.</span> Anugrah Ihsan</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+        <li><a href="#projects" class="nav-link" id="nav-projects">Projects</a></li>
+        <li><a href="#skills" class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#contact" class="nav-contact btn-primary" id="nav-contact-btn">Contact Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello Buds 👋</p>
+        <h1 class="hero-name">I am <span class="accent">Muh. Anugrah Ihsan</span></h1>
+        <p class="hero-role">Network Infrastructure Specialist · DevOps &amp; IoT Engineer</p>
+        <div class="hero-divider"></div>
+        <p class="hero-desc">
+          Lulusan D4 Teknik Komputer Terapan (IPK: 3.79/4.00) dari Politeknik Negeri Ujung Pandang.
+          Berfokus pada perancangan dan pengelolaan infrastruktur jaringan enterprise — mulai dari implementasi
+          Cisco di lingkungan kampus, integrasi Cloudflare &amp; VPN, hingga sistem monitoring jaringan berbasis IoT.
+        </p>
+        <div class="hero-cta">
+          <a href="./CV_Anugrah.pdf" class="btn-primary" id="btn-download-cv" download>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+            </svg>
+            Download CV
+          </a>
+          <a href="#projects" class="btn-outline" id="btn-see-work">More</a>
+        </div>
+        <div class="hero-social">
+          <span>Find Me On</span>
+          <a href="https://linkedin.com/in/anugrahihsan" target="_blank" rel="noopener" class="social-icon"
+            id="social-linkedin" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+            </svg>
+          </a>
+          <a href="https://github.com/Uggaaa31" target="_blank" rel="noopener" class="social-icon"
+            id="social-github" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+          </a>
+          <a href="mailto:anugrahihsan86@gmail.com" class="social-icon" id="social-email" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg>
+          </a>
+          <a href="https://wa.me/6281341185188" target="_blank" rel="noopener" class="social-icon" id="social-wa"
+            aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-img-glow"></div>
+        <div class="hero-img-circle outer"></div>
+        <div class="hero-img-circle inner"></div>
+        <div class="hero-img-wrapper">
+          <img src="./Images/DSC05105.JPG" alt="Anugrah Ihsan" class="profile-photo" id="profile-photo" />
+        </div>
+        <span class="badge badge-iot">Network Specialist</span>
+        <span class="badge badge-devops">Cisco · Cloudflare</span>
+      </div>
+    </div>
+    <div class="scroll-hint" id="scroll-hint">
+      <span></span>
+      <p>Scroll Down</p>
+    </div>
+  </section>
+
+  <!-- ─── STATS BAR ─── -->
+  <section class="stats-bar" id="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="stat-num" data-count="5" id="stat-exp">0</span>
+        <span class="stat-label">Pengalaman Kerja</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item stat-highlight">
+        <span class="stat-num" data-count="6" id="stat-projects">0</span>
+        <span class="stat-label">Completed Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="4" id="stat-certs">0</span>
+        <span class="stat-label">Certifications</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-count="4" id="stat-fields">0</span>
+        <span class="stat-label">Bidang Keahlian</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section class="services" id="services">
+    <div class="section-container">
+      <p class="section-tag">What Do I Offer</p>
+      <h2 class="section-title">Layanan &amp; Bidang Keahlian</h2>
+      <div class="services-grid">
+        <div class="service-card service-card--featured" id="service-network">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z" />
+              <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z" />
+            </svg>
+          </div>
+          <h3>Network Infrastructure ⭐</h3>
+          <p>Perancangan, konfigurasi, dan pengelolaan infrastruktur jaringan enterprise — routing, switching (Cisco IOS), VLAN, VPN, firewall, dan monitoring jaringan menggunakan Cloudflare &amp; tools open-source.</p>
+        </div>
+        <div class="service-card" id="service-devops">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm14-1H2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1zM1 13a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5H1v8z" />
+            </svg>
+          </div>
+          <h3>DevOps &amp; Server</h3>
+          <p>Manajemen server Linux, virtualisasi Proxmox VE, containerisasi Docker &amp; Docker Compose, serta Cloudflare Tunnels untuk secure public access.</p>
+        </div>
+        <div class="service-card" id="service-iot">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+              <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            </svg>
+          </div>
+          <h3>IoT Engineering</h3>
+          <p>Perancangan sistem monitoring industri berbasis IoT dengan ESP32, Raspberry Pi, LoRa Mesh, dan MQTT. Dari pengujian sensor di lapangan hingga integrasi dashboard real-time.</p>
+        </div>
+        <div class="service-card" id="service-web">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+            </svg>
+          </div>
+          <h3>Full-Stack Web</h3>
+          <p>Pengembangan aplikasi web end-to-end modern menggunakan React.js, Laravel, JavaScript, MySQL, dan InfluxDB. Solusi digital mulai dari API hingga UI interaktif.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE & EDUCATION ─── -->
+  <section class="experience" id="about">
+    <div class="section-container">
+      <p class="section-tag">Career &amp; Background</p>
+      <h2 class="section-title">Pengalaman Kerja</h2>
+      <div class="timeline">
+
+        <!-- EXP 1: PT AIS Full-time -->
+        <div class="timeline-item" id="exp-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">
+              Des 2025 – Jun 2026
+              <span class="timeline-badge badge-fulltime">Full-time</span>
+            </span>
+            <h3>DevOps &amp; IoT Engineer</h3>
+            <p class="timeline-company">PT Anugrah Inti Spektra</p>
+            <p>Pembangunan dan pengelolaan infrastruktur server virtual enterprise berbasis Linux menggunakan Proxmox VE dan Docker. Mengelola 5 layanan website production dengan uptime 24/7, monitoring aktif, tunneling Cloudflare untuk secure access, serta pipeline deployment berbasis Git.</p>
+          </div>
+        </div>
+
+        <!-- EXP 2: PT AIS Intern -->
+        <div class="timeline-item" id="exp-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">
+              Jul – Des 2025
+              <span class="timeline-badge badge-intern">Magang</span>
+            </span>
+            <h3>DevOps &amp; IoT Engineer (Intern)</h3>
+            <p class="timeline-company">PT Anugrah Inti Spektra</p>
+            <p>Riset dan implementasi sistem transmisi data sensor lapangan berbasis LoRa Mesh, integrasi gateway, konfigurasi containerisasi Docker, serta dokumentasi konfigurasi deployment dan troubleshooting sistem.</p>
+          </div>
+        </div>
+
+        <!-- EXP 3: Disperindag Sultra -->
+        <div class="timeline-item" id="exp-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">
+              Jun – Agt 2025
+              <span class="timeline-badge badge-freelance">Freelance</span>
+            </span>
+            <h3>Web Developer (Freelance)</h3>
+            <p class="timeline-company">Disperindag Sulawesi Tenggara · Remote</p>
+            <p>Membangun platform website digitalisasi layanan dinas <em>sipkopas.com</em> untuk Dinas Perindustrian dan Perdagangan Sultra menggunakan React.js. Bertindak sebagai full-stack developer mulai dari perancangan arsitektur hingga deployment.</p>
+          </div>
+        </div>
+
+        <!-- EXP 4: UPA TI PNUP -->
+        <div class="timeline-item" id="exp-4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">
+              Jan – Jun 2025
+              <span class="timeline-badge badge-contract">Kontrak</span>
+            </span>
+            <h3>Tim Pengembang Jaringan ⭐</h3>
+            <p class="timeline-company">UPA Teknologi Informasi PNUP</p>
+            <p>Pemeliharaan infrastruktur jaringan kampus skala besar (LAN &amp; Wi-Fi) melayani 5.000+ pengguna aktif dengan target konektivitas 24/7. Menangani rata-rata 20 kasus gangguan/bulan, monitoring jaringan, troubleshooting hardware, konfigurasi router &amp; switch Cisco, manajemen VLAN, dan pembaruan OS.</p>
+          </div>
+        </div>
+
+        <!-- EXP 5: Maero Indonesia -->
+        <div class="timeline-item" id="exp-5">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-period">
+              Jun – Jul 2024
+              <span class="timeline-badge badge-freelance">Freelance</span>
+            </span>
+            <h3>Web Developer (Freelance)</h3>
+            <p class="timeline-company">Maero Indonesia · Remote</p>
+            <p>Pengembangan website korporat Maero Indonesia menggunakan JavaScript, HTML, dan CSS dari tahap desain antarmuka awal hingga peluncuran resmi (production release).</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ─── EDUCATION CARD ─── -->
+      <div class="education-section">
+        <div class="education-card" id="education">
+          <div class="edu-top">
+            <div>
+              <div class="edu-univ">Politeknik Negeri Ujung Pandang (PNUP)</div>
+              <div class="edu-degree">🎓 D4 Teknik Informatika dan Komputer</div>
+            </div>
+            <div class="edu-meta">
+              <span class="edu-period">September 2022 – Agustus 2026</span>
+              <span class="edu-gpa-badge">⭐ IPK: 3.79 / 4.00</span>
+            </div>
+          </div>
+          <div class="edu-thesis-box">
+            <span class="edu-thesis-label">Skripsi:</span>
+            <p class="edu-thesis-desc">
+              <strong>Implementasi Sistem Komunikasi Ad Hoc LoRa Mesh Berbasis Protokol Routing AODV pada Lingkungan Tambang</strong> — Lokasi penelitian di PT Geostone Khamilah Indonesia, Parangloe, Gowa (2025–2026).
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="projects" id="projects">
+    <div class="projects-bg-text" aria-hidden="true">MY PROJECT</div>
+    <div class="section-container">
+      <p class="section-tag">Portfolio</p>
+      <h2 class="section-title">Latest Projects</h2>
+      <!-- ─── PROJECT CATEGORY FILTERS ─── -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">Semua Proyek (6)</button>
+        <button class="filter-btn" data-filter="network">🌐 Networking &amp; Infrastructure (4)</button>
+        <button class="filter-btn" data-filter="web">💻 Web Development (2)</button>
+      </div>
+
+      <div class="projects-list">
+
+        <!-- PROJECT 1: LORA MESH THESIS (HIGHLIGHT UTAMA NETWORKING) -->
+        <div class="project-card" id="project-lora" data-category="network">
+          <div class="project-thumb">
+            <img src="./Images/IMG_20250412_105023.jpg" alt="LoRa Mesh Network Skripsi" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Wireless Network &middot; Skripsi</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name" style="color:#7456FF;">🔧 LoRa Mesh Ad Hoc Communication System (Skripsi) ⭐</h3>
+            <p class="project-tech">ESP32 &middot; RFM95W &middot; AODV Routing &middot; LoRa Mesh &middot; C++ &middot; MQTT &middot; InfluxDB</p>
+            <p class="project-desc">Implementasi sistem komunikasi ad hoc berbasis LoRa Mesh dengan protokol routing AODV untuk lingkungan tambang.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">📍 Environment</span>
+                <span class="spec-value">PT Geostone Khamilah Indonesia, Parangloe, Gowa (area NLoS)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">⚙️ Hardware</span>
+                <span class="spec-value">ESP32, RFM95W (LoRa), GPS NEO-M8N, IMU BNO055</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📡 Protocol</span>
+                <span class="spec-value">AODV (Ad hoc On-Demand Distance Vector) Routing</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🕸️ Topology</span>
+                <span class="spec-value">3 tracker nodes (TRK-001, TRK-002, TRK-003) + 1 gateway</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📶 Testing</span>
+                <span class="spec-value">SF7, SF9, SF12 | BW 125 kHz | CR 4/5 — point-to-point &amp; multihop</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📊 Metrics</span>
+                <span class="spec-value">PDR, PLR, RSSI, SNR, latency across 1-hop &amp; 2-hop configurations</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">💻 Stack</span>
+                <span class="spec-value">C/C++ (firmware), Laravel + React.js (dashboard), InfluxDB, MQTT</span>
+              </div>
+            </div>
+
+            <div class="topology-box">
+              <span class="topology-title">📡 Visual Network Topology:</span>
+[TRK-001] ──LoRa──► [TRK-002] ──LoRa──► [Gateway] ──► [Server Dashboard]
+                         ▲
+                    [TRK-003]
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-lora-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: VIRTUAL SERVER INFRASTRUCTURE -->
+        <div class="project-card" id="project-virtual-server" data-category="network">
+          <div class="project-thumb">
+            <img src="./Images/20260628_163910.jpg" alt="Virtual Server Infrastructure" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Server Infra &middot; DevOps</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">🖥️ Virtual Server Infrastructure — PT Anugrah Inti Spektra</h3>
+            <p class="project-tech">Proxmox VE &middot; Docker &amp; Compose &middot; Cloudflare Tunnels &middot; Linux Server &middot; Git</p>
+            <p class="project-desc">Pembangunan dan pengelolaan infrastruktur server virtual enterprise berbasis Linux.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">🖧 Hypervisor</span>
+                <span class="spec-value">Proxmox VE</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📦 Containerization</span>
+                <span class="spec-value">Docker &amp; Docker Compose — 5 layanan website production</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">⏱️ Uptime</span>
+                <span class="spec-value">24/7 dengan monitoring aktif</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🛡️ Tunneling</span>
+                <span class="spec-value">Cloudflare Tunnels untuk secure public access &amp; proteksi endpoint</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🚀 Source Control</span>
+                <span class="spec-value">Git-based deployment pipeline</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📑 Documentation</span>
+                <span class="spec-value">System configuration, deployment, dan troubleshooting docs</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-server-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: CAMPUS NETWORK PNUP -->
+        <div class="project-card" id="project-pnup-network" data-category="network">
+          <div class="project-thumb">
+            <img src="./Images/IMG_20250310_204440.jpg" alt="Campus Network Administration PNUP" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Enterprise Network &middot; Campus</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">🌍 Campus Network Administration — UPA Teknologi Informasi PNUP ⭐</h3>
+            <p class="project-tech">Cisco Devices &middot; Routing &amp; Switching &middot; TCP/IP &middot; VLAN &middot; LAN / WLAN Admin</p>
+            <p class="project-desc">Pemeliharaan infrastruktur jaringan kampus skala besar Politeknik Negeri Ujung Pandang.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">🌐 Scope</span>
+                <span class="spec-value">LAN &amp; Wi-Fi kampus Politeknik Negeri Ujung Pandang</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">👥 Scale</span>
+                <span class="spec-value">5.000+ pengguna aktif</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📶 Uptime Target</span>
+                <span class="spec-value">24/7 connectivity</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🔧 Throughput</span>
+                <span class="spec-value">Penanganan rata-rata 20 kasus gangguan/bulan</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🛠️ Tasks</span>
+                <span class="spec-value">Network monitoring, hardware troubleshooting, OS updates, user support</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-pnup-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4: FLEET MANAGEMENT SYSTEM -->
+        <div class="project-card" id="project-fms" data-category="network">
+          <div class="project-thumb">
+            <img src="./Images/IMG_20250814_095246.jpg" alt="Fleet Management System IoT" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Industrial IoT &middot; Fleet</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">🚛 Fleet Management System (FMS) — IoT Architecture</h3>
+            <p class="project-tech">ESP32 &middot; Raspberry Pi &middot; LoRa Mesh &middot; Docker &middot; Web Dashboard</p>
+            <p class="project-desc">Perancangan arsitektur IoT untuk sistem manajemen armada kendaraan.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">⚙️ Hardware</span>
+                <span class="spec-value">ESP32 + Raspberry Pi (terintegrasi)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">⛽ Monitoring</span>
+                <span class="spec-value">Konsumsi bahan bakar diesel kendaraan secara real-time</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📡 Communication</span>
+                <span class="spec-value">LoRa Mesh untuk transmisi data jarak jauh</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🖥️ Dashboard</span>
+                <span class="spec-value">Web-based monitoring system</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🐳 Deployment</span>
+                <span class="spec-value">Docker containerized services</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-fms-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 5: SIPKOPAS DISPERINDAG -->
+        <div class="project-card" id="project-disperindag" data-category="web">
+          <div class="project-thumb">
+            <img src="./Images/IMG_20250527_193316.jpg" alt="sipkopas.com Disperindag" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Web Dev &middot; GovTech</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">🏭 sipkopas.com — Disperindag Sulawesi Tenggara</h3>
+            <p class="project-tech">React.js &middot; REST API &middot; JavaScript &middot; Responsive UI</p>
+            <p class="project-desc">Website digitalisasi layanan Dinas Perindustrian dan Perdagangan Sultra.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">💻 Stack</span>
+                <span class="spec-value">React.js</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">🏛️ Type</span>
+                <span class="spec-value">Government service digitalization platform</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">👤 Role</span>
+                <span class="spec-value">Full-stack developer (design to deployment)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📅 Period</span>
+                <span class="spec-value">Juni – Agustus 2025 | Remote</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-disperindag-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 6: MAERO INDONESIA -->
+        <div class="project-card" id="project-maero" data-category="web">
+          <div class="project-thumb">
+            <img src="./Images/WhatsApp Image 2026-09-03 at 02.05.15.jpeg" alt="Maero Indonesia Website" />
+            <div class="project-thumb-overlay">
+              <span class="project-tag">Web Dev &middot; Corporate</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">🏢 Maero Indonesia Corporate Website</h3>
+            <p class="project-tech">JavaScript &middot; HTML &middot; CSS &middot; UI/UX</p>
+            <p class="project-desc">Pengembangan website korporat Maero Indonesia.</p>
+
+            <div class="project-specs">
+              <div class="spec-item">
+                <span class="spec-label">💻 Stack</span>
+                <span class="spec-value">JavaScript, HTML, CSS</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">👤 Role</span>
+                <span class="spec-value">Full-stack developer — dari tahap awal hingga peluncuran resmi</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">📅 Period</span>
+                <span class="spec-value">Juni – Juli 2024 | Remote</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <a href="#contact" class="btn-primary btn-sm" id="project-maero-cta">Hubungi Saya</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="project-offering" id="project-offering">
+        <div class="offering-text">
+          <h3>Have any project in mind?</h3>
+          <p>I'm available for freelancing</p>
+        </div>
+        <div class="offering-actions">
+          <a href="https://github.com/Uggaaa31" target="_blank" rel="noopener" class="btn-outline"
+            id="btn-more-projects">More Projects</a>
+          <a href="mailto:anugrahihsan86@gmail.com" class="btn-primary" id="btn-email-me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z" />
+            </svg>
+            Email Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY HIRE ME ─── -->
+  <section class="why-hire" id="why-hire">
+    <div class="why-bg-text" aria-hidden="true">WHY HIRE ME</div>
+    <div class="section-container">
+      <p class="section-tag">Strengths</p>
+      <h2 class="section-title">Why Hire Me</h2>
+      <div class="traits-grid">
+        <div class="trait-card" id="trait-workaholic">
+          <div class="trait-icon-ring outer-ring">
+            <div class="trait-icon-ring inner-ring">
+              <span class="trait-icon">&#9889;</span>
+            </div>
+          </div>
+          <h3>Workaholic</h3>
+          <p>Tidak bisa hanya berdiam diri. Selalu berusaha produktif dan berkontribusi nyata di setiap proyek yang
+            dikerjakan.</p>
+        </div>
+        <div class="trait-card" id="trait-communicative">
+          <div class="trait-icon-ring outer-ring">
+            <div class="trait-icon-ring inner-ring">
+              <span class="trait-icon">&#128172;</span>
+            </div>
+          </div>
+          <h3>Communicative</h3>
+          <p>Kemampuan komunikasi yang baik memudahkan penyampaian ide teknis kepada tim maupun klien non-teknis.</p>
+        </div>
+        <div class="trait-card" id="trait-cooperative">
+          <div class="trait-icon-ring outer-ring">
+            <div class="trait-icon-ring inner-ring">
+              <span class="trait-icon">&#129309;</span>
+            </div>
+          </div>
+          <h3>Cooperative</h3>
+          <p>Di balik proyek sukses, selalu ada tim yang solid. Saya membangun kerjasama yang baik dan konsisten menuju
+            tujuan bersama.</p>
+        </div>
+        <div class="trait-card" id="trait-perfectionist">
+          <div class="trait-icon-ring outer-ring">
+            <div class="trait-icon-ring inner-ring">
+              <span class="trait-icon">&#127919;</span>
+            </div>
+          </div>
+          <h3>Perfectionist</h3>
+          <p>Intuisi yang kuat dan standar kualitas tinggi memastikan setiap hasil kerja adalah yang terbaik yang bisa
+            dihadirkan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="skills" id="skills">
+    <div class="skills-bg-text" aria-hidden="true">TOOLS AND SKILLS</div>
+    <div class="section-container">
+      <p class="section-tag">Tech Stack</p>
+      <h2 class="section-title">Tools and Skills</h2>
+      <div class="skills-categories">
+        <div class="skill-cat" id="skill-infra">
+          <h3 class="skill-cat-title">🖥️ Infrastructure &amp; Networking</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Proxmox VE</span>
+            <span class="skill-tag">Docker &amp; Docker Compose</span>
+            <span class="skill-tag">Cloudflare Tunnels</span>
+            <span class="skill-tag">Linux Server</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">LAN / WLAN Administration</span>
+            <span class="skill-tag">TCP/IP</span>
+            <span class="skill-tag">Routing &amp; Switching</span>
+            <span class="skill-tag">Cisco Devices</span>
+          </div>
+        </div>
+        <div class="skill-cat" id="skill-iot">
+          <h3 class="skill-cat-title">📡 IoT &amp; Hardware</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ESP32</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">RFM95W (LoRa)</span>
+            <span class="skill-tag">GPS NEO-M8N</span>
+            <span class="skill-tag">IMU BNO055</span>
+            <span class="skill-tag">LoRa Mesh</span>
+            <span class="skill-tag">MediaPipe</span>
+          </div>
+        </div>
+        <div class="skill-cat" id="skill-lang">
+          <h3 class="skill-cat-title">💻 Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C / C++</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">HTML / CSS</span>
+          </div>
+        </div>
+        <div class="skill-cat" id="skill-frameworks">
+          <h3 class="skill-cat-title">🗄️ Frameworks &amp; Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Laravel</span>
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">InfluxDB</span>
+            <span class="skill-tag">MQTT</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="certs" id="certifications">
+        <h3 class="skill-cat-title" style="text-align:center; margin-bottom:1.8rem;">📜 Certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-card" id="cert-cisco">
+            <div class="cert-badge">🔷</div>
+            <div>
+              <strong>Cisco Dasar</strong>
+              <span class="cert-issuer">ID-Networkers (IDN.ID) &middot; Jun 2025 (Valid hingga Jun 2028)</span>
+              <span class="cert-credential">ID: IDN-1738826648-184-51129</span>
+              <p class="cert-scope">Mencakup: TCP/IP, Routing, Switching, dan konfigurasi perangkat Cisco.</p>
+            </div>
+          </div>
+          <div class="cert-card" id="cert-webdev">
+            <div class="cert-badge">🟢</div>
+            <div>
+              <strong>Assistant Web Developer – VBL</strong>
+              <span class="cert-issuer">Digital Talent Scholarship &middot; Apr 2026</span>
+              <span class="cert-credential">ID: 212124181060-17</span>
+              <p class="cert-scope">Kompetensi kejuruan pengembangan web profesional dari Kominfo.</p>
+            </div>
+          </div>
+          <div class="cert-card" id="cert-it">
+            <div class="cert-badge">🟢</div>
+            <div>
+              <strong>Teknologi Informasi (Micro Skill)</strong>
+              <span class="cert-issuer">Digital Talent Scholarship &middot; Apr 2026</span>
+              <span class="cert-credential">ID: 2299864850-17399</span>
+              <p class="cert-scope">Kompetensi teknis dan tata kelola teknologi informasi modern.</p>
+            </div>
+          </div>
+          <div class="cert-card" id="cert-digital">
+            <div class="cert-badge">🟢</div>
+            <div>
+              <strong>Mindset Digital (Micro Skill)</strong>
+              <span class="cert-issuer">Digital Talent Scholarship &middot; Apr 2026</span>
+              <span class="cert-credential">ID: 2299815850-22064</span>
+              <p class="cert-scope">Pola pikir digital dan adaptasi transformasi teknologi industri.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <p class="section-tag">Get In Touch</p>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">
+            Saya terbuka untuk peluang baru, kolaborasi proyek, atau sekadar ngobrol tentang teknologi.
+          </p>
+          <div class="contact-item" id="contact-email">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:anugrahihsan86@gmail.com">anugrahihsan86@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-phone">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328z" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Phone / WhatsApp</span>
+              <a href="https://wa.me/6281341185188" target="_blank" rel="noopener">+62 813 4118 5188</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-linkedin">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/anugrahihsan" target="_blank"
+                rel="noopener">linkedin.com/in/anugrahihsan</a>
+            </div>
+          </div>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+              </svg>
+            </div>
+            <div>
+              <span class="contact-label">Location</span>
+              <span>Makassar, Sulawesi Selatan, Indonesia</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="form-name">Nama</label>
+            <input type="text" id="form-name" name="name" placeholder="Nama lengkap kamu" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email">Email</label>
+            <input type="email" id="form-email" name="email" placeholder="email@kamu.com" required />
+          </div>
+          <div class="form-group">
+            <label for="form-subject">Subject</label>
+            <input type="text" id="form-subject" name="subject" placeholder="Topik pesan" />
+          </div>
+          <div class="form-group">
+            <label for="form-message">Pesan</label>
+            <textarea id="form-message" name="message" rows="5"
+              placeholder="Ceritakan project atau keperluanmu..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="btn-send-message">Kirim Pesan</button>
+          <p class="form-note" id="form-note" style="display:none;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <a href="#home" class="nav-logo">Muh<span>.</span> Anugrah Ihsan</a>
+      <p class="footer-quote">"Bridging complex hardware systems with user-friendly software to create impactful
+        industrial solutions."</p>
+      <div class="footer-social">
+        <a href="https://linkedin.com/in/anugrahihsan" target="_blank" rel="noopener" aria-label="LinkedIn"
+          id="footer-linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </a>
+        <a href="https://github.com/Uggaaa31" target="_blank" rel="noopener" aria-label="GitHub"
+          id="footer-github">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+          </svg>
+        </a>
+        <a href="mailto:anugrahihsan86@gmail.com" aria-label="Email" id="footer-email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z" />
+          </svg>
+        </a>
+        <a href="https://wa.me/6281341185188" target="_blank" rel="noopener" aria-label="WhatsApp"
+          id="footer-whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+          </svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Muh. Anugrah Ihsan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

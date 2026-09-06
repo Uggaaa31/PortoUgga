@@ -1,0 +1,104 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 3851 >>
+stream
+q 0.45 0.34 1 rg 50 755 495 1 re f Q
+q 0.85 0.85 0.85 rg 50 710 495 0.5 re f Q
+q 0.85 0.85 0.85 rg 50 640 495 0.5 re f Q
+q 0.85 0.85 0.85 rg 50 470 495 0.5 re f Q
+q 0.85 0.85 0.85 rg 50 408 495 0.5 re f Q
+BT
+/F2 18 Tf 50 795 Td (MUH. ANUGRAH IHSAN) Tj
+-50 -795 Td
+/F1 10 Tf 50 780 Td (Network Infrastructure Specialist | DevOps & IoT Engineer) Tj
+-50 -780 Td
+/F1 8.5 Tf 50 765 Td (Makassar, Indonesia | anugrahihsan86@gmail.com | +62 813 4118 5188 | github.com/Uggaaa31) Tj
+-50 -765 Td
+/F2 11 Tf 50 740 Td (RINGKASAN PROFIL) Tj
+-50 -740 Td
+/F1 8.5 Tf 50 725 Td (Lulusan D4 Teknik Komputer Terapan PNUP \\(IPK: 3.79/4.00\\) dengan fokus pada perancangan infrastruktur) Tj
+-50 -725 Td
+/F1 8.5 Tf 50 713 Td (jaringan enterprise, implementasi Cisco, integrasi Cloudflare Tunnels, server Linux/Proxmox, dan sistem monitoring IoT.) Tj
+-50 -713 Td
+/F2 11 Tf 50 690 Td (PENDIDIKAN) Tj
+-50 -690 Td
+/F2 9 Tf 50 675 Td (Politeknik Negeri Ujung Pandang \\(PNUP\\) | D4 Teknik Informatika dan Komputer \\(2022 - 2026\\)) Tj
+-50 -675 Td
+/F1 8.5 Tf 50 663 Td (IPK: 3.79 / 4.00 | Skripsi: Implementasi Sistem Komunikasi Ad Hoc LoRa Mesh Berbasis Protokol Routing AODV) Tj
+-50 -663 Td
+/F1 8.5 Tf 50 651 Td (pada Lingkungan Tambang - PT Geostone Khamilah Indonesia, Parangloe, Gowa) Tj
+-50 -651 Td
+/F2 11 Tf 50 628 Td (PENGALAMAN KERJA) Tj
+-50 -628 Td
+/F2 9 Tf 50 613 Td (DevOps & IoT Engineer \\(Full-time\\) - PT Anugrah Inti Spektra \\(Des 2025 - Jun 2026\\)) Tj
+-50 -613 Td
+/F1 8.5 Tf 50 601 Td (- Pengelolaan server virtual Proxmox VE, Docker container 5 layanan production, 24/7 uptime, Cloudflare Tunnels.) Tj
+-50 -601 Td
+/F2 9 Tf 50 583 Td (DevOps & IoT Engineer \\(Magang\\) - PT Anugrah Inti Spektra \\(Jul 2025 - Des 2025\\)) Tj
+-50 -583 Td
+/F1 8.5 Tf 50 571 Td (- Implementasi transmisi data LoRa Mesh, integrasi sensor lapangan ESP32 & Raspberry Pi, Git pipeline.) Tj
+-50 -571 Td
+/F2 9 Tf 50 553 Td (Web Developer \\(Freelance\\) - Disperindag Sulawesi Tenggara \\(Jun 2025 - Agt 2025\\)) Tj
+-50 -553 Td
+/F1 8.5 Tf 50 541 Td (- Pembangunan website sipkopas.com untuk digitalisasi layanan publik menggunakan React.js.) Tj
+-50 -541 Td
+/F2 9 Tf 50 523 Td (Tim Pengembang Jaringan \\(Kontrak\\) - UPA Teknologi Informasi PNUP \\(Jan 2025 - Jun 2025\\)) Tj
+-50 -523 Td
+/F1 8.5 Tf 50 511 Td (- Administrasi jaringan kampus LAN & Wi-Fi untuk 5.000+ pengguna aktif, konfigurasi Cisco IOS, manajemen VLAN.) Tj
+-50 -511 Td
+/F2 9 Tf 50 493 Td (Web Developer \\(Freelance\\) - Maero Indonesia \\(Jun 2024 - Jul 2024\\)) Tj
+-50 -493 Td
+/F1 8.5 Tf 50 481 Td (- Pengembangan corporate website Maero Indonesia menggunakan JavaScript, HTML, CSS.) Tj
+-50 -481 Td
+/F2 11 Tf 50 458 Td (BIDANG KEAHLIAN & TECH STACK) Tj
+-50 -458 Td
+/F1 8.5 Tf 50 443 Td (Infrastructure & Networking: Proxmox VE, Docker & Compose, Cloudflare Tunnels, Linux Server, Cisco IOS, TCP/IP, VLAN) Tj
+-50 -443 Td
+/F1 8.5 Tf 50 431 Td (IoT & Hardware: ESP32, Raspberry Pi, RFM95W \\(LoRa\\), GPS NEO-M8N, IMU BNO055, LoRa Mesh, MediaPipe) Tj
+-50 -431 Td
+/F1 8.5 Tf 50 419 Td (Programming & Frameworks: C/C++, PHP, JavaScript, Python, HTML/CSS, Laravel, React.js, MySQL, InfluxDB, MQTT) Tj
+-50 -419 Td
+/F2 11 Tf 50 396 Td (SERTIFIKASI RESMI) Tj
+-50 -396 Td
+/F2 9 Tf 50 381 Td (Cisco Dasar - ID-Networkers \\(IDN.ID\\) | IDN-1738826648-184-51129 \\(Valid hingga Jun 2028\\)) Tj
+-50 -381 Td
+/F1 8.5 Tf 50 369 Td (- TCP/IP, Routing, Switching, dan konfigurasi perangkat Cisco) Tj
+-50 -369 Td
+/F2 9 Tf 50 353 Td (Assistant Web Developer \\(VBL\\) - Digital Talent Scholarship | ID: 212124181060-17 \\(Apr 2026\\)) Tj
+-50 -353 Td
+/F2 9 Tf 50 338 Td (Teknologi Informasi \\(Micro Skill\\) - Digital Talent Scholarship | ID: 2299864850-17399 \\(Apr 2026\\)) Tj
+-50 -338 Td
+/F2 9 Tf 50 323 Td (Mindset Digital \\(Micro Skill\\) - Digital Talent Scholarship | ID: 2299815850-22064 \\(Apr 2026\\)) Tj
+-50 -323 Td
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4299
+%%EOF

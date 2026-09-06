@@ -1,0 +1,2 @@
+# Exclude large raw videos exceeding GitHub size limits
+*.mp4
